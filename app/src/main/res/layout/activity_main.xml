@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <CheckBox
+        android:id="@+id/cb_cerveja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerveja" />
+</LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_agua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Água" />
+
+    <CheckBox
+        android:id="@+id/cb_cigarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cigarro" />
+
+    <CheckBox
+        android:id="@+id/cb_vodka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vodka" />
+
+    <CheckBox
+        android:id="@+id/cb_cachaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cachaça" />
+
+    <CheckBox
+        android:id="@+id/cb_whisky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whisky" />
+
+    <Button
+        android:id="@+id/bt_efetuarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Efetuar Pedido" />
+</LinearLayout>
